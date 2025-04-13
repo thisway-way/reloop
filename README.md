@@ -8,8 +8,8 @@
     body {
       margin: 0;
       font-family: 'Helvetica Neue', sans-serif;
-      background: linear-gradient(to right, #e8f5e9, #f1f8e9);
-      color: #1c1c1c;
+      background: #f5f5f5;
+      color: #333;
     }
     .hero {
       display: flex;
@@ -19,9 +19,7 @@
       height: 100vh;
       text-align: center;
       padding: 0 20px;
-      background-image: url('https://images.unsplash.com/photo-1518779578993-ec3579fee39f');
-      background-size: cover;
-      background-position: center;
+      background-color: #4CAF50;
       color: white;
     }
     .hero h1 {
@@ -36,7 +34,6 @@
     .cta-buttons {
       display: flex;
       gap: 1rem;
-      flex-wrap: wrap;
       justify-content: center;
     }
     .cta-buttons a {
@@ -66,7 +63,7 @@
 <body>
   <section class="hero">
     <h1>♻️ ReLoop</h1>
-    <p>你的舊裝置，還有價值。讓二手電子產品重獲新生，回收、檢測、再利用，一鍵搞定。</p>
+    <p>給舊電子產品第二次機會，讓它們重新發揮價值。回收、檢測、再利用，幫助地球更永續。</p>
     <div class="cta-buttons">
       <a href="https://forms.gle/your-form-link" class="btn-primary">立即估價</a>
       <a href="#process" class="btn-outline">瞭解流程</a>
