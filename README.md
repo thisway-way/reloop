@@ -11,7 +11,6 @@
       background: #f5f5f5;
       color: #333;
     }
-
     .hero {
       display: flex;
       flex-direction: column;
@@ -24,24 +23,20 @@
       background-color: #4CAF50;
       color: white;
     }
-
     .hero h1 {
       font-size: 3rem;
       margin-bottom: 1rem;
     }
-
     .hero p {
       font-size: 1.2rem;
       max-width: 600px;
       margin-bottom: 2rem;
     }
-
     .cta-buttons {
       display: flex;
       gap: 1rem;
       justify-content: center;
     }
-
     .cta-buttons a {
       text-decoration: none;
       padding: 12px 24px;
@@ -49,31 +44,25 @@
       font-weight: bold;
       transition: 0.3s;
     }
-
     .btn-primary {
       background-color: #2ECC71;
       color: white;
     }
-
     .btn-primary:hover {
       background-color: #27ae60;
     }
-
     .btn-outline {
       border: 2px solid white;
       color: white;
     }
-
     .btn-outline:hover {
       background-color: white;
       color: #2ECC71;
     }
-
     @media (max-width: 768px) {
       .hero h1 {
         font-size: 2rem;
       }
-
       .hero p {
         font-size: 1rem;
       }
